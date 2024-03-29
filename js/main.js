@@ -1,24 +1,29 @@
-var one = 10;
-var two = 20;
-var three = 30;
-var four = 40;
-var five = 50;
-var six = 60;
-var seven = 70;
-var eight = 80;
-var nine = 90;
-var ten = 100;
+let one = 10;
+let two = 20;
+let three = 30;
+let four = 40;
+let five = 50;
+let six = 60;
+let seven = 70;
+let eight = 80;
+let nine = 90;
+let ten = 100;
+five++;
+ten--;
 
-var sum = one + two;
-var subscription = ten - four;
-var multiplication = five * six;
-var division = seven / eight;
-
-
-console.log("First result : " , sum);
-console.log("Secound result : " , subscription);
-console.log("Third Result : " , multiplication);
-console.log("fourth Result : " , division);
+let sum = one + two;
+let subscription = ten - four;
+let multiplication = five * six;
+let division = seven / eight;
 
 
+console.log("First result : " , sum);  // additiioin 
+console.log("Secound result : " , subscription);  // বিয়োগ
+console.log("Third Result : " , multiplication); // গুন
+console.log("fourth Result : " , division);     // ভাগ
+
+console.log("the reselts is : " , two ** 2)  // পাওয়ার 
+console.log("the reselts is : " , eight % two)  // ভাগশেষ
+console.log("the incriment reselts is : " , five ++ )  // 
+console.log("the Decrement reselts is : " , ten -- )  // হ্রাস
 
