@@ -24,6 +24,38 @@ console.log("fourth Result : " , division);     // ভাগ
 
 console.log("the reselts is : " , two ** 2)  // পাওয়ার 
 console.log("the reselts is : " , eight % two)  // ভাগশেষ
-console.log("the incriment reselts is : " , five ++ )  // 
+console.log("the incriment reselts is : " , five ++ )  // বৃদ্ধি
 console.log("the Decrement reselts is : " , ten -- )  // হ্রাস
+
+
+// data taypes
+
+// number type 
+let a = 50;
+console.log(typeof a);
+
+// string type 
+let b = "sifat";
+console.log(typeof b);
+
+// Bigint 
+let c = 12000000.505^255;
+console.log(typeof c);
+
+// Boolean 
+let d = true;
+let e = false;
+console.log(typeof d);
+
+// undefined 
+let f ;
+console.log(typeof f);
+
+// null 
+let name = null;
+console.log(typeof name);
+
+// // Symbol
+// let Symbol =  ;
+// console.log(typeof Symbol)
 
