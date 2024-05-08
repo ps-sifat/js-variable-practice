@@ -63,8 +63,6 @@ button.style.border = "none"
 div.style.border = "2px solid #F95C19"
 div.style.borderRadius = "5px"
 
-
-
 body.appendChild(div)
 
 
@@ -72,38 +70,3 @@ body.appendChild(div)
 console.log( body);
 
 
-
-// // nav.appendChild(div);
-
-// ul.style.marginLeft = "20px";
-
-// ul.style.color = "white";
-
-// li.style.display = "flex";
-// li.style.columnGap = "40px";
-
-// ul.style.display = "flex";
-// ul.style.marginLeft = "300px"
-
-
-// button.style.color = "white";
-// button.style.textAlign = "center";
-// button.style.borderRadius = "100px";
-// button.style.fontSize = "1rem";
-// button.style.backgroundColor = "transparent";
-// button.style.border = "2px solid rgba(244, 246, 252, 0.2)";
-// button.style.padding = "16px 24px";
-
-
-
-// div.style.display = "flex";
-// div.style.justifyContent = "space-between";
-// div.style.alignItems = "center";
-// div.style.backgroundColor = "#1C1E53";
-// div.style.padding = "16px 48px";
-
-// body.appendChild(div);
-
-
-
-// console.log(body);
