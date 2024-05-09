@@ -1,13 +1,13 @@
 let nav = document.createElement("nav");
 let div = document.createElement("div");
-let div1 = document.createElement("div1");
+let div1 = document.createElement("div");
 let img = document.createElement("img");
 let ul = document.createElement("ul");
 let li = document.createElement("li");
 let a = document.createElement("a");
-let a1 = document.createElement("a1");
-let a2 = document.createElement("a2");
-let a3 = document.createElement("a3");
+let a1 = document.createElement("a");
+let a2 = document.createElement("a");
+let a3 = document.createElement("a");
 let button = document.createElement("button");
 const body = document.querySelector("body");
 
