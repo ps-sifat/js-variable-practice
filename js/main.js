@@ -11,18 +11,19 @@ let a3 = document.createElement("a");
 let button = document.createElement("button");
 const body = document.querySelector("body");
 
+body.style.backgroundColor = "#3de8ff";
 // images
 img.setAttribute("src", "./images/logo.png");
 img.setAttribute("alt", "./images/logo.png");
 
-// nav iteam 
-a.innerText = "Home"
-a1.innerText = "Our Service"
-a2.innerText = "About us"
-a3.innerText = "What's New?"
-button.innerText = "Contact us"
+// nav iteam
+a.innerText = "Home";
+a1.innerText = "Our Service";
+a2.innerText = "About us";
+a3.innerText = "What's New?";
+button.innerText = "Contact us";
 
-// ul list 
+// ul list
 li.appendChild(a);
 li.appendChild(a1);
 li.appendChild(a2);
@@ -31,10 +32,10 @@ li.appendChild(a3);
 // ul
 ul.appendChild(li);
 
-// menu div 
+// menu div
 div1.appendChild(ul);
 
-// main div 
+// main div
 div.appendChild(img);
 div.appendChild(div1);
 div.appendChild(button);
@@ -44,29 +45,25 @@ div.style.display = "flex";
 div.style.alignItems = "center";
 div.style.padding = "10px 50px ";
 
-div1.style.marginLeft ="550px"
+div1.style.marginLeft = "550px";
 
 li.style.listStyle = "none";
 li.style.display = "flex";
 li.style.columnGap = "50px";
 li.style.color = "#817382";
 
-a.style.color = "#F95C19"
+a.style.color = "#F95C19";
 
-button.style.marginLeft = "140px"
-button.style.padding = "12px 20px"
-button.style.borderRadius = "5px"
-button.style.background = "#FFE4D9"
-button.style.color = "#F95C19"
-button.style.border = "none"
+button.style.marginLeft = "140px";
+button.style.padding = "12px 20px";
+button.style.borderRadius = "5px";
+button.style.background = "#FFE4D9";
+button.style.color = "#F95C19";
+button.style.border = "none";
 
-div.style.border = "2px solid #F95C19"
-div.style.borderRadius = "5px"
+div.style.border = "2px solid #F95C19";
+div.style.borderRadius = "5px";
 
-body.appendChild(div)
+body.appendChild(div);
 
-
-
-console.log( body);
-
-
+console.log(body);
